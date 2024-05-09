@@ -5,7 +5,7 @@
 
 ## Motivation:
 
-I was a physicist until 2 years ago. Writing codes was a daunting job back then, especially in the region of computational physics. The old code base is written in Fortran and Matlab. One needs to search in the old documents for decades to find a simple line of explanation of a function. No example was provided. And one needs some real genius to make it work.
+I was doing computational physics research until 2 years ago. Writing codes was a daunting job back then, especially in the region of physics. The old code base is written in Fortran and Matlab. One needs to search in the old documents for decades to find a simple line of explanation of a function. No example was provided. And one needs some real genius to make it work.
 
 This is all gone in the LLM era when one just needs to ask LLM to write the code. But this is not penicillin. One still needs some basic knowledge in Computer Science to master the techniques of coding. And I am sad to find that, today, major colleges are still teaching coding in the same way as the pre-GPT era. A student still needs to learn how to search the documentation and find the right usage of a function or object.
 

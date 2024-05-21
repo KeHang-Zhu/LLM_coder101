@@ -1,4 +1,4 @@
-# An Overview of LLM Coder 101
+# LLM Coder 101 | Leaning coding in a new era
 
 **Kehang Zhu<sup>1</sup>, Haonan Wang<sup>2</sup>**
 
@@ -10,14 +10,14 @@
 
 ---
 ## Outline
-- [Preface: Why do we start writing this blog?]((#why-do-we-start-writing-this-blog))
-- [Chapter 1: How to build a chatbot website?](./chatbot/README.md)
+- [Preface: Why do we start writing this blog?](#why-do-we-start-writing-this-blog)
+- [Chapter 1: Let's start with building a chatbot website.](./chatbot/README.md)
 
 ---
 
 ## Why do we start writing this blog?
 
-**Kehang**
+**Kehang Zhu:**
 
 I was conducting computational physics research until two years ago. Writing code was a daunting task back then, especially for natural science. The codebase was often written in ancient languages like Fortran, maintained over several decades, and continually cluttered with new additions by generations of graduate students. Alternatively, it could be a massive Matlab file with ten thousand uncommented lines of code. Documentation, if it existed, was so sparse that it could take ages to correctly use a function, with no examples provided. It required real genius to make it work.
 
@@ -28,7 +28,7 @@ One still needs basic knowledge in computer science to master coding techniques.
 Unfortunately, major colleges are still teaching coding the same way they did before the GPT era. Students still need to learn how to search documentation to find the correct usage of a function or object.
 
 ---
-**Haonan:**
+**Haonan Wang:**
 
 As a computer science PhD student with 8 years of coding experience, I’m deeply interested in how the way people program has evolved and where it’s going. My research currently focuses on using large language models (LLMs) to help people program data analytics tasks with minimal human effort.This interest began when I first used GPT-4. I was really impressed by how well it could write code, making me realize that we might be close to using natural language as a programming interface.
 You might be wondering what I’m talking about. Let me give you a bit more background to clear things up.
@@ -118,9 +118,8 @@ Sadly, you cannot simply build all programs this way nowadays. However, in this 
 
 **We will use an example --Build a boyfriend/girlfriend chatbot -- to start our journey with LLM coder. We hope it will be fun.**
 
-## Here is the outline of the journey:
+## Here is the some concepts we will include in this journey:
 
-- Overview of the goals and the basic components required.
 - Environment:
     - How to install necessary software and set up your development workspace.
 - Frontend

@@ -93,6 +93,14 @@ print(sorted_arr)
 You don't need to understand exactly how these programs sort five numbers. But you can clearly see the difference: from the most complex one to the easiest and most readable one. 
 Can we make it even simpler? Let's try to write a program using ChatGPT-4. Here's what we should do:
 
+<img src="image.jpg" height="300"/>
+
+The only thing you need to do is to ask ChatGPT-4: Can you write a program to sort the following five numbers: 1, 9, 200, 7, 3 and run it?
+
+Sadly, you cannot simply build all programs this way nowadays. However, in this series of blogs, we will discuss how you can create some very useful programs with the help of LLM. We will explore how to use natural language as your programming language to achieve practical results.
+
+
+So, this motivates us to start this blog to share our thoughts on how to learn coding in this new era.
 
 
 ### To dive in, the mindsets below will be important:

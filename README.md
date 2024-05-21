@@ -1,14 +1,18 @@
-# An Overview of LLM coder 101 | Kehang & Haonan
-*Authors: Kehang[1] & Haonan[2]*
+# An Overview of LLM Coder 101
 
-[1]:Ph.D. in Harvard Physics, AI researcher in Harvard CS
-[2]:Ph.D. in Columbia CS.
+**Kehang Zhu<sup>1</sup>, Haonan Wang<sup>2</sup>**
+
+---
+
+<sup>1</sup>Ph.D. in Physics, Harvard University; AI Researcher, Harvard Computer Science
+
+<sup>2</sup>Ph.D. in Computer Science, Columbia University
 
 ---
 
 ## Why do we start writing this blog?
 
-*Kehang*
+**Kehang**
 
 I was conducting computational physics research until two years ago. Writing code was a daunting task back then, especially for natural science. The codebase was often written in ancient languages like Fortran, maintained over several decades, and continually cluttered with new additions by generations of graduate students. Alternatively, it could be a massive Matlab file with ten thousand uncommented lines of code. Documentation, if it existed, was so sparse that it could take ages to correctly use a function, with no examples provided. It required real genius to make it work.
 
@@ -18,7 +22,7 @@ One still needs basic knowledge in computer science to master coding techniques.
 
 Unfortunately, major colleges are still teaching coding the same way they did before the GPT era. Students still need to learn how to search documentation to find the correct usage of a function or object.
 
-*Haonan:*
+**Haonan:**
 
 As a computer science PhD student with 8 years of coding experience, I’m deeply interested in how the way people program has evolved and where it’s going. My research currently focuses on using large language models (LLMs) to help people program data analytics tasks with minimal human effort.This interest began when I first used GPT-4. I was really impressed by how well it could write code, making me realize that we might be close to using natural language as a programming interface.
 You might be wondering what I’m talking about. Let me give you a bit more background to clear things up.

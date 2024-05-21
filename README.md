@@ -9,6 +9,11 @@
 <sup>2</sup>Ph.D. in Computer Science, Columbia University
 
 ---
+## Outline
+- [Preface: Why do we start writing this blog?]((#why-do-we-start-writing-this-blog))
+- [Chapter 1: How to build a chatbot website?](./chatbot/README.md)
+
+---
 
 ## Why do we start writing this blog?
 

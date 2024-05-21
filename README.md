@@ -22,6 +22,7 @@ One still needs basic knowledge in computer science to master coding techniques.
 
 Unfortunately, major colleges are still teaching coding the same way they did before the GPT era. Students still need to learn how to search documentation to find the correct usage of a function or object.
 
+---
 **Haonan:**
 
 As a computer science PhD student with 8 years of coding experience, I’m deeply interested in how the way people program has evolved and where it’s going. My research currently focuses on using large language models (LLMs) to help people program data analytics tasks with minimal human effort.This interest began when I first used GPT-4. I was really impressed by how well it could write code, making me realize that we might be close to using natural language as a programming interface.
@@ -93,24 +94,26 @@ print(sorted_arr)
 You don't need to understand exactly how these programs sort five numbers. But you can clearly see the difference: from the most complex one to the easiest and most readable one. 
 Can we make it even simpler? Let's try to write a program using ChatGPT-4. Here's what we should do:
 
-<img src="image.jpg" height="300"/>
+<img src="image.jpg" height="450"/>
 
 The only thing you need to do is to ask ChatGPT-4: Can you write a program to sort the following five numbers: 1, 9, 200, 7, 3 and run it?
 
 Sadly, you cannot simply build all programs this way nowadays. However, in this series of blogs, we will discuss how you can create some very useful programs with the help of LLM. We will explore how to use natural language as your programming language to achieve practical results.
 
+---
 
-So, this motivates us to start this blog to share our thoughts on how to learn coding in this new era.
+**So, this motivates us to start this blog to share our thoughts on how to learn coding in this new era.**
 
+---
 
-### To dive in, the mindsets below will be important:
+## To dive in, the mindsets below will be important:
 
 - Fast feedback loop. Don’t be afraid of errors. As a beginner, errors will help you learn.
 - Get the code to work first! As a beginner, forget about the simplicity or efficiency for now.
 
-We will use an example --Build a boyfriend/girlfriend chatbot -- to start our journey with LLM coder. We hope it will be fun.
+**We will use an example --Build a boyfriend/girlfriend chatbot -- to start our journey with LLM coder. We hope it will be fun.**
 
-### Here is the outline of the journey:
+## Here is the outline of the journey:
 
 - Overview of the goals and the basic components required.
 - Environment:
@@ -124,7 +127,7 @@ We will use an example --Build a boyfriend/girlfriend chatbot -- to start our jo
 - Database
     - Server memory
     - SQLite
-    - Cloud
+    - Cloud deployment
 - development
     - local development
     - migrate to Google Cloud

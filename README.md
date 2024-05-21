@@ -11,7 +11,7 @@
 ---
 ## Outline
 - [Preface: Why do we start writing this blog?](#why-do-we-start-writing-this-blog)
-- [Chapter 1: Let's start with building a chatbot website.](./chatbot/README.md)
+- [Chapter 1: Let's start with building a chatbot website.](./chapter1/README.md)
 
 ---
 

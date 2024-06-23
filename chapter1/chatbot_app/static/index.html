@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chat with your virtual boyfriend/girlfriend</h1>
+    <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Type a message..." required>
+        <button type="submit">Send</button>
+    </form>
+    <div id="chat-log"></div>
+
+    <script>
+        const form = document.getElementById('chat-form');
+        const chatLog = document.getElementById('chat-log');
+
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const userInput = document.getElementById('user-input').value;
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: userInput })
+            });
+            const data = await response.json();
+            const botMessage = data.choices[0].message.content;
+
+            const userMessageElement = document.createElement('p');
+            userMessageElement.textContent = 'You: ' + userInput;
+            chatLog.appendChild(userMessageElement);
+
+            const botMessageElement = document.createElement('p');
+            botMessageElement.textContent = 'Bot: ' + botMessage;
+            chatLog.appendChild(botMessageElement);
+
+            document.getElementById('user-input').value = '';
+        });
+    </script>
+</body>
+</html>

@@ -4,7 +4,7 @@
 
 ---
 
-<sup>1</sup>Ph.D. stu in Physics, Harvard University; AI Researcher, Harvard Computer Science
+<sup>1</sup>Ph.D. student in Physics, Harvard University; AI Researcher, Harvard Computer Science
 
 <sup>2</sup>Ph.D. student in Computer Science, Columbia University
 
